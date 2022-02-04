@@ -12,7 +12,7 @@ contract FundMe {
 	// safe math library check uint256 for integer overflows
     using SafeMathChainlink for uint256;
     
-    //mapping to store which address depositeded how much ETH
+    //mapping to store which address deposited how much ETH
     mapping(address => uint256) public addressToAmountFunded;
     // array of addresses who deposited
     address[] public funders;
